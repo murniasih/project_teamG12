@@ -1,0 +1,140 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .email-marketing {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .list-menu {
+    display: none;
+
+  }
+
+  .head-slider {
+    font-size: 44px;
+  }
+
+  .text-slider {
+    font-size: 18px;
+  }
+
+  .content-footer {
+    flex-wrap: wrap;
+  }
+
+  .content-kiri1,
+  .content-kiri2,
+  .content-kanan1,
+  .content-kanan2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-bar p {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+  }
+
+  .icon a {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+  }
+
+  .logo {
+    padding: 0 auto;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .menu-icon {
+    color: #003d6a;
+    float: right;
+    font-size: 40px;
+    padding: 40px 0;
+    display: block;
+  }
+
+  .list-menu {
+    display: none;
+
+  }
+
+  .slider {
+    padding: 150px 0 100px 0;
+  }
+
+  .head-slider {
+    font-size: 40px;
+  }
+
+  .text-slider {
+    font-size: 16px;
+  }
+
+  /* Tetapkan flex-direction milik .flex-list */
+  .content-footer {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .content-kiri1,
+  .content-kiri2,
+  .content-kanan1,
+  .content-kanan2 {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .logo-footer {
+    padding-bottom: 30px;
+  }
+
+
+  footer {
+    text-align: center;
+  }
+
+
+  .profil-kanan img {
+    padding-top: 100px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .list,
+  .container-profil {
+    flex-direction: column;
+  }
+
+  .produk-kiri h3 {
+    text-align: center;
+  }
+
+
+}
